@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bikez/static/css/main.8c918b5b.css",
+    "main.js": "/Bikez/static/js/main.bfbe525d.js",
+    "index.html": "/Bikez/index.html",
+    "main.8c918b5b.css.map": "/Bikez/static/css/main.8c918b5b.css.map",
+    "main.bfbe525d.js.map": "/Bikez/static/js/main.bfbe525d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c918b5b.css",
+    "static/js/main.bfbe525d.js"
+  ]
+}
