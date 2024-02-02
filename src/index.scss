@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	font-size: 12pt;
+}
+
+body {
+	font-family: sans-serif;
+	color: white;
+}
+
+canvas {
+	background: black;
+	// background: radial-gradient(ellipse at left top, rgba(133, 133, 133, 1) 0%, rgba(28, 28, 28, 1) 85%);
+}

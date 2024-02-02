@@ -1,0 +1,74 @@
+@use 'colors.scss' as *;
+@use 'vars.scss' as *;
+
+.horizontal-selector {
+	display: flex;
+
+	flex-direction: row;
+
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 5px;
+	border: $border;
+
+	height: 40px;
+
+	background: $darkest;
+
+	.seperator {
+		width: 3px;
+		height: 100%;
+
+		display: flex;
+		flex-direction: row;
+
+		justify-content: center;
+		align-items: center;
+
+		.seperator-line {
+			width: 100%;
+			height: 100%;
+
+			border-radius: 10px;
+
+			background: black;
+		}
+	}
+
+	.horizontal-selector-option {
+		padding: 10px;
+		padding-inline: 10px;
+
+		background: transparent;
+
+		outline: 0;
+		border: 0;
+
+		width: 100%;
+		height: 100%;
+
+		color: $medium;
+
+		display: flex;
+		flex-direction: row;
+
+		justify-content: center;
+		align-items: center;
+
+		gap: 10px;
+
+		transition: 0.3s;
+
+		border-radius: 5px;
+	}
+
+	.horizontal-selector-option-selected {
+		background: $dark;
+		color: white;
+	}
+
+	.horizontal-selector-option:hover {
+		background: rgba($dark, 0.5);
+	}
+}
